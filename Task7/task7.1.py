@@ -4,5 +4,3 @@ def fahrenheit(x):
     f = x * (9/5)
     f = f + 32
     return(f)
-
-print(fahrenheit(100))
