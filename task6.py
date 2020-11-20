@@ -2,8 +2,8 @@
 
 def max_number(x, y, z):
     if z >= x and z >= y:
-        return(z)
+        return z
     if y >= x and y >= z:
-        return(y)
+        return y
     if x >= y and x >= z:
-        return(x)
+        return x

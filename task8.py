@@ -1,4 +1,4 @@
-def convert(time):
+def time_converter(time):
     time = int(time)
     hour = int(time / 60)
     minutes = time % 60 
@@ -14,5 +14,3 @@ def convert(time):
         print(hour, "hour,", minutes, "minutes")
     else:
         print(hour, "hours,", minutes, "minutes")
-
-convert(121)

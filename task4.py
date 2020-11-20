@@ -3,14 +3,7 @@
 
 def three_checker(x, y):
     sum = x + y
-    sum = str(sum)
-    i = 0
-    while i < len(sum):
-        if sum[i] == '3':
-            return (True)
-        i += 1
-    if x == 3 or y == 3:
-        return (True)
+    if x == 3 or y == 3 and '3' in sum:
+        return True
     else:
-        return (False)
-    
+        return False

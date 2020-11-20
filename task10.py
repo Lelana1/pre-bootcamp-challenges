@@ -1,10 +1,10 @@
 def isVowel_upper(c):
     if c == 'A' or c == 'E' or c == 'I' or c == 'O' or c == 'U':
-        return (c)
+        return c
 
 def isVowel_lower(c):
     if c == 'a' or c == 'e' or c == 'i' or c == 'o' or c == 'u':
-        return (c)
+        return c
 
 def vowels_checker(str):
     vowels = []

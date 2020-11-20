@@ -10,6 +10,3 @@ def common_letters(str1, str2):
                 else:
                     common.append(i)
     print(s.join(common))
-
-
-common_letters("house", "computers")
